@@ -20,7 +20,7 @@
     function breakfast(toEat, cb) {
             setTimeout(() => {
                 toEat
-                    ?cb(null, 'Delicious breakfast!')
+                    ?cb('Delicious breakfast!')
                     :cb('Go slip!')
             }, 2000);
     };
@@ -115,9 +115,9 @@
     beUp(true).then(toWosh => {
         console.log(toWosh);
     });
-    breakfast(true).then(toEat => {
-        console.log(toEat);
-    });
+
+breakfast(true, (err) => console.log(err));
+
     putOn(true).then(clothes => {
         console.log(clothes);
     });

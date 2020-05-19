@@ -6,10 +6,15 @@
 </head>
 <body>
 <script>
-    function someFn(a = 10, b = a) {
-return a+b;
-    }
-    console.log(someFn());
+    function breakfast(toEat, cb) {
+        setTimeout(() => {
+            toEat
+                ?cb('Delicious breakfast!')
+                :cb('Go slip!')
+        }, 0);
+    };
+    breakfast(false, (err) => console.log(err));
+
 </script>
 </body>
 </html>
