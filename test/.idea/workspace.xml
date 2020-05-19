@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa95d9c4-9c05-4f7f-bad1-f87b2da98214" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ao0msNyuQwYX3RmOqvksuvBl98" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa95d9c4-9c05-4f7f-bad1-f87b2da98214" name="Default Changelist" comment="" />
+      <created>1587386800348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587386800348</updated>
+      <workItem from="1587386802064" duration="43000" />
+      <workItem from="1587386866530" duration="77000" />
+      <workItem from="1587386972211" duration="23000" />
+      <workItem from="1587387405407" duration="264000" />
+      <workItem from="1587387732024" duration="2224000" />
+      <workItem from="1587455305163" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="467" y="242" key="Github.CreateGistDialog" timestamp="1587411980648">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="467" y="242" key="Github.CreateGistDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1587411980648" />
+  </component>
+</project>

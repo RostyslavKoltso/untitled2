@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+// beUp, breakfast, putOn, roadToWork, work,
+// lunch, drinkСoffee, roadToHome, supper, sleep
+    function beUp(toWosh,) {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                toWosh
+                    ?resolve('Good morning!')
+                    :reject('I wont slip!')
+            }, 1000);
+        })
+    };
+    function breakfast(toEat, cb) {
+            setTimeout(() => {
+                toEat
+                    ?cb(null, 'Delicious breakfast!')
+                    :cb('Go slip!')
+            }, 2000);
+    };
+    function putOn(clothes) {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                if (clothes){
+                    resolve('Go work!')
+                }else {
+                    reject('Not Good!')
+                }
+            }, 2500);
+        })
+    };
+    function roadToWork(car) {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                if (car){
+                    resolve('Good luck!')
+                }else {
+                    reject('So bad')
+                }
+            }, 3000);
+        })
+    };
+    function work(write) {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                if (write){
+                    resolve('Go have lunch!')
+                }else {
+                    reject('Go work!')
+                }
+            }, 3500);
+        })
+    };
+    function lunch(eat) {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                if (eat){
+                    resolve('Good appetite!')
+                }else {
+                    reject('Dont eat!')
+                }
+            }, 3900)
+        })
+    };
+    function drinkCoffe(drink) {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                if (drink){
+                    resolve('Deliciousness!')
+                }else {
+                    reject('No coffe')
+                }
+            }, 1500);
+        })
+    };
+    function roadToHome(go) {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                if (go){
+                    resolve('Be careful!')
+                }else {
+                    reject('Stay at work!')
+                }
+            }, 4000);
+        })
+    };
+    function supper(eat) {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                if (eat){
+                    resolve('Welcome Home!')
+                }else {
+                    reject('Go away!')
+                }
+            }, 4100);
+        })
+    };
+    function goSleep(sleep) {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                if (sleep){
+                    resolve('Good night!!!')
+                }else {
+                    reject('Good Bay!')
+                }
+            }, 4500);
+        })
+    }
+    beUp(true).then(toWosh => {
+        console.log(toWosh);
+    });
+    breakfast(true).then(toEat => {
+        console.log(toEat);
+    });
+    putOn(true).then(clothes => {
+        console.log(clothes);
+    });
+    roadToWork(true).then(car => {
+        console.log(car);
+    });
+    work(true).then(write => {
+        console.log(write);
+    });
+    lunch(true).then(eat => {
+        console.log(eat);
+    });
+    drinkCoffe(true).then(drink => {
+        console.log(drink);
+    });
+    roadToHome(false).then(go => {
+        console.log(go);
+    })
+        .catch(reason => {
+            console.log(reason);
+        });
+    supper(true).then(eat => {
+        console.log(eat);
+    });
+    goSleep(true).then(sleep => {
+        console.log(sleep);
+    })
+</script>
+</body>
+</html>
